@@ -7,10 +7,8 @@ import {
   Zap, 
   Leaf, 
   Cat,
-  TrendingUp,
   Shield,
   Target,
-  Users,
   Activity,
   Award
 } from 'lucide-react';

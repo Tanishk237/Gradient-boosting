@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Brain, ArrowRight, Target, Zap } from 'lucide-react';
+import { ArrowRight, Target, Zap, TrendingUp } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 
 const TitleSlide: React.FC = () => {

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
-import { Button } from '../ui/button';
 import { BookOpen, Target, TrendingUp, Users, Brain, Zap, ArrowRight, CheckCircle, AlertCircle } from 'lucide-react';
 
 const BoostingOverviewSlide: React.FC = () => {

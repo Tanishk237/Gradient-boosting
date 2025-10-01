@@ -72,16 +72,7 @@ const HowGradientBoostingWorksSlide: React.FC = () => {
     }
   ];
 
-  // Generate sample data for visualization
-  const sampleData = useMemo(() => {
-    const points = [];
-    for (let i = 0; i < 20; i++) {
-      const x = (i / 19) * 4 * Math.PI - 2 * Math.PI;
-      const y = Math.sin(x) + (Math.random() - 0.5) * 0.4;
-      points.push({ x, y });
-    }
-    return points;
-  }, []);
+  // (Removed unused sampleData)
 
   const currentStepData = steps[currentStep];
 
